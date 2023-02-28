@@ -72,4 +72,15 @@ class Entity
 int main(){
     String str("Experiment Entity");
     Entity entity(std::move(str));
+    /*
+    The output:
+
+        Created!
+        Moved!
+        Moved!
+        Destroyed!
+        Destroyed!
+        Destroyed!
+        
+    */
 }
